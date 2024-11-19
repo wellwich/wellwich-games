@@ -9,12 +9,12 @@
 		"test": "jest",
 		"lint:code": "biome lint ./",
 		"lint:style": "biome format ./",
-		"fix:style": "biome format --write ./",
 		"fix:code": "biome lint --apply ./",
+		"fix:style": "biome format --write ./",
 		"prepare": "husky"
 	},
 	"lint-staged": {
-		"*.{js,ts,tsx}": ["biome lint", "biome format"]
+		"*.{js,ts,tsx}": ["biome lint ./", "biome format ./"]
 	},
 	"private": true,
 	"dependencies": {

@@ -9,7 +9,7 @@
 		"test": "jest",
 		"lint:code": "biome lint ./",
 		"lint:style": "biome format ./",
-		"fix:code": "biome lint --apply ./",
+		"fix:code": "biome lint --write ./",
 		"fix:style": "biome format --write ./",
 		"prepare": "husky"
 	},

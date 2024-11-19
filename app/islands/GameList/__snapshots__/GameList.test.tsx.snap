@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ゲームリストコンポーネント レンダリングされるべき 1`] = `
+<div>
+  <ul
+    class="grid grid-cols-2 gap-4"
+  >
+    <li
+      class="m-4 hover:bg-gray-200"
+    >
+      <a
+        href="/games/color-tiles"
+      >
+        <div
+          class="p-4 border-solid border-2 border-gray-400 h-64"
+        >
+          <img
+            alt="カラータイル"
+            class="w-full h-32 object-cover border-solid border-2 border-gray-400"
+            src="https://assets.wellwich.com/web/color-tiles_thumb.webp"
+          />
+          <h4
+            class="text-xl font-bold"
+          >
+            カラータイル
+          </h4>
+          <p
+            class="overflow-hidden text-ellipsis line-clamp-3"
+          >
+            色のついたタイルをクリックして、同じ色のタイルを消していこう。
+          </p>
+        </div>
+      </a>
+    </li>
+    <li
+      class="m-4 hover:bg-gray-200"
+    >
+      <a
+        href="/games/eight-puzzle"
+      >
+        <div
+          class="p-4 border-solid border-2 border-gray-400 h-64"
+        >
+          <img
+            alt="8パズル"
+            class="w-full h-32 object-cover border-solid border-2 border-gray-400"
+            src="https://assets.wellwich.com/web/eight-puzzle_thumb.webp"
+          />
+          <h4
+            class="text-xl font-bold"
+          >
+            8パズル
+          </h4>
+          <p
+            class="overflow-hidden text-ellipsis line-clamp-3"
+          >
+            数字を並べ替えて、元の順番に戻そう。
+          </p>
+        </div>
+      </a>
+    </li>
+    <li
+      class="m-4 hover:bg-gray-200"
+    >
+      <a
+        href="/games/lightsout"
+      >
+        <div
+          class="p-4 border-solid border-2 border-gray-400 h-64"
+        >
+          <img
+            alt="ライツアウト"
+            class="w-full h-32 object-cover border-solid border-2 border-gray-400"
+            src="https://assets.wellwich.com/web/lightsout_thumb.webp"
+          />
+          <h4
+            class="text-xl font-bold"
+          >
+            ライツアウト
+          </h4>
+          <p
+            class="overflow-hidden text-ellipsis line-clamp-3"
+          >
+            すべてのライトをつけよう。
+          </p>
+        </div>
+      </a>
+    </li>
+    <li
+      class="m-4 hover:bg-gray-200"
+    >
+      <a
+        href="/games/quiz"
+      >
+        <div
+          class="p-4 border-solid border-2 border-gray-400 h-64"
+        >
+          <img
+            alt="クイズ"
+            class="w-full h-32 object-cover border-solid border-2 border-gray-400"
+            src="https://assets.wellwich.com/web/quiz_thumb.webp"
+          />
+          <h4
+            class="text-xl font-bold"
+          >
+            クイズ
+          </h4>
+          <p
+            class="overflow-hidden text-ellipsis line-clamp-3"
+          >
+            クイズに答えて、正解数を競おう。
+          </p>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+`;

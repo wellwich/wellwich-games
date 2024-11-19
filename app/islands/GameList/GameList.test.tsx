@@ -1,7 +1,7 @@
 import { render } from 'hono/jsx/dom';
 import games from '../../game-info';
-import { waitForElement } from '../../util';
 import GameList from './GameList';
+import { waitForElement } from '../../util';
 
 describe('ゲームリストコンポーネント', () => {
 	it('レンダリングされるべき', async () => {

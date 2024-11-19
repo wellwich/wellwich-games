@@ -1,5 +1,5 @@
-import { render } from 'hono/jsx/dom';
 import Game from './Game';
+import { render } from 'hono/jsx/dom';
 import { waitForElement } from '../../util';
 
 describe('ゲームコンポーネント', () => {

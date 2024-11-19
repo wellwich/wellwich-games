@@ -1,7 +1,7 @@
 const Header = () => {
 	return (
 		<header>
-			<h1 class="text-4xl font-bold">Game Center</h1>
+			<h1 class="text-4xl font-bold">wellwich Games</h1>
 			<nav>
 				<ul class="flex space-x-4">
 					<li>

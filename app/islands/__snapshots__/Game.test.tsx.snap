@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ゲームコンポーネント レンダリングされるべき 1`] = `
+<div>
+  <div>
+    <h2
+      class="text-2xl font-bold"
+    >
+      テストゲーム
+    </h2>
+    <div
+      style="width: 100%; height: 100%;"
+    >
+      <canvas
+        height="600"
+        style="margin-left: 0px; margin-top: 0px;"
+        width="800"
+      />
+    </div>
+  </div>
+</div>
+`;

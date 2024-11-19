@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+canvas {
+  margin: auto 0;
+  max-width: 640px;
+}
+
+@media (display-mode: fullscreen) {
+  canvas {
+    height: 100%;
+    max-width: none;
+  }
+}
+
+@media (max-width: 640px) {
+  canvas {
+    width: 100%;
+  }
+}

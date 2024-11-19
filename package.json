@@ -10,7 +10,11 @@
 		"lint:code": "biome lint ./",
 		"lint:style": "biome format ./",
 		"fix:style": "biome format --write ./",
-		"fix:code": "biome lint --apply ./"
+		"fix:code": "biome lint --apply ./",
+		"prepare": "husky"
+	},
+	"lint-staged": {
+		"*.{js,ts,tsx}": ["biome lint", "biome format"]
 	},
 	"private": true,
 	"dependencies": {
@@ -20,9 +24,11 @@
 		"canvas": "^2.11.2",
 		"hono": "^4.6.10",
 		"honox": "^0.1.26",
+		"husky": "^9.1.7",
 		"jest-canvas-mock": "^2.5.2",
 		"jest-environment-jsdom": "^29.7.0",
 		"jsdom": "^25.0.1",
+		"lint-staged": "^15.2.10",
 		"phaser": "^3.86.0",
 		"phaser3spectorjs": "^0.0.8",
 		"postcss": "^8.4.49"

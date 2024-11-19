@@ -36,3 +36,4 @@ lerna-debug.log*
 bun.lockb
 wrangler.toml
 package-lock.json
+_headers

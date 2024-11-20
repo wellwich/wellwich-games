@@ -34,5 +34,4 @@ lerna-debug.log*
 .DS_Store
 
 bun.lockb
-wrangler.toml
 package-lock.json

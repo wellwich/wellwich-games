@@ -49,9 +49,9 @@ const Game = ({ name }: { name: string }) => {
 	}, [name]);
 
 	return (
-		<div>
+		<div class="mx-auto">
 			<h2 class="text-2xl font-bold">{gameTitle}</h2>
-			<div ref={gameArea} />
+			<div ref={gameArea} id="gameArea" />
 		</div>
 	);
 };

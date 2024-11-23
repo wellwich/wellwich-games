@@ -9,7 +9,7 @@ canvas {
 
 @media (display-mode: fullscreen) {
 	canvas {
-		height: 100dvh;
+		margin: initial;
 		max-width: initial;
 	}
 }

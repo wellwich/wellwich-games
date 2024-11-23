@@ -18,7 +18,7 @@ canvas {
 
 @media (display-mode: fullscreen) {
 	canvas {
-		height: 100vh;
+		height: 100dvh;
 		max-width: initial;
 	}
 }

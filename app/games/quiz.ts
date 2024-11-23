@@ -347,7 +347,7 @@ const config: Phaser.Types.Core.GameConfig = {
 	scene: [TitleScene, GameScene, ResultScene],
 	scale: {
 		parent: 'phaser-game',
-		mode: Phaser.Scale.NONE,
+		mode: Phaser.Scale.FIT,
 		fullscreenTarget: 'phaser-game',
 		autoCenter: Phaser.Scale.CENTER_HORIZONTALLY,
 		zoom: Phaser.Scale.MAX_ZOOM,

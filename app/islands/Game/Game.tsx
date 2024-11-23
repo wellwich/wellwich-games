@@ -51,7 +51,7 @@ const Game = ({ name }: { name: string }) => {
 	return (
 		<div>
 			<h2 class="text-2xl font-bold">{gameTitle}</h2>
-			<div ref={gameArea} style={{ width: '100%', height: '100%' }} />
+			<div ref={gameArea} />
 		</div>
 	);
 };

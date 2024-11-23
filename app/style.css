@@ -14,8 +14,8 @@ canvas {
 	}
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px) and (not (display-mode: fullscreen)) {
 	canvas {
-		height: 100%;
+		width: 100%;
 	}
 }

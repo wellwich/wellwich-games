@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 canvas {
-	margin: auto 0;
-	max-width: 640px;
+    margin: auto 0;
+    max-width: 640px;
 }
 
 @media (display-mode: fullscreen) {
-	canvas {
-		height: 100dvh;
-		max-width: initial;
-	}
+    canvas {
+        height: 100vh;
+        max-width: initial;
+    }
 }
 
 @media (max-width: 640px) and (not (display-mode: fullscreen)) {
-	canvas {
-		width: 100%;
-	}
+    canvas {
+        width: 100%;
+    }
 }

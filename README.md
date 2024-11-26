@@ -17,8 +17,8 @@
 - このリポジトリをクローンして、以下のコマンドを実行してください。
 
 ```bash
-$ npm install
-$ npm run dev
+$ bun install
+$ bun run dev
 ```
 
 ## ライセンス

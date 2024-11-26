@@ -2,20 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-canvas {
-	margin: auto 0;
+#gameArea {
 	max-width: 640px;
-}
-
-@media (display-mode: fullscreen) {
-	canvas {
-		height: 100%;
-		max-width: none;
-	}
-}
-
-@media (max-width: 640px) {
-	canvas {
-		width: 100%;
-	}
+	margin: 0 auto;
 }

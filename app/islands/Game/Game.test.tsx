@@ -1,13 +1,13 @@
-import Game from './Game';
-import { waitForElement } from '../../util';
 import { render } from 'hono/jsx/dom';
+import { waitForElement } from '../../util';
+import Game from './Game';
 
 describe('ゲームコンポーネント', () => {
 	it('レンダリングされるべき', async () => {
 		const container = document.createElement('div');
 		render(<Game name="test-game" />, container);
 
-		await waitForElement(container, 'div');
+		await waitForElement(container, 'canvas');
 
 		expect(container).toMatchSnapshot();
 	});

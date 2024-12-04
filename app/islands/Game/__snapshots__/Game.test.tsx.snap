@@ -2,14 +2,16 @@
 
 exports[`ゲームコンポーネント レンダリングされるべき 1`] = `
 <div>
-  <div>
+  <div
+    class="mx-auto"
+  >
     <h2
       class="text-2xl font-bold"
     >
       テストゲーム
     </h2>
     <div
-      style="width: 100%; height: 100%;"
+      id="gameArea"
     >
       <canvas
         height="600"

@@ -6,7 +6,7 @@
 		"build": "vite build --mode client && vite build",
 		"preview": "wrangler pages dev",
 		"deploy": "$npm_execpath run build && wrangler pages deploy",
-		"test": "jest",
+		"test": "jest ./",
 		"lint:code": "biome lint ./",
 		"lint:style": "biome format ./",
 		"fix:code": "biome lint --write ./",
@@ -14,7 +14,7 @@
 		"prepare": "husky"
 	},
 	"lint-staged": {
-		"*.{js,ts,tsx}": ["biome lint ./", "biome format ./"]
+		"*.{js,ts,tsx}": ["biome lint ./", "biome format ./", "jest ./"]
 	},
 	"private": true,
 	"dependencies": {

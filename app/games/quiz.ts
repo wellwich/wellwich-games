@@ -140,7 +140,6 @@ class QuestionManager {
 	getQuestionsCount() {
 		return this.questions.length;
 	}
-	// 問題が最後まで行ったかどうか
 	isFinished() {
 		return this.currentQuestionIndex >= this.questions.length - 1;
 	}
